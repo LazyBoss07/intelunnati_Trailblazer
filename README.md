@@ -42,7 +42,7 @@ impact on the digital landscape. By incorporating the latest advancements in nat
 confident that our model provides a robust solution for identifying and combating the proliferation of fake news  </p>
 
 
-**Dataset:**
+## **Dataset:**
 
 ISOT Fake News dataset was used as a training, validation, and test input for the algorithms that were used. The dataset features a
 
@@ -54,7 +54,7 @@ consists of approximately 12,600 news articles that are verified and obtained fr
 
 genuine and are meant to represent reliable news sources.
 
-**Exploratory data analysis - EDA**
+## **Exploratory data analysis - EDA**
 
 **Data Shape and Sample:**
 
@@ -96,9 +96,9 @@ provides insights into any trends or patterns in the dataset over time.
 
 
 
-<a name="br4"></a> 
+ 
 
-**Model training, Evaluation, and Prediction**
+## **Model training, Evaluation, and Prediction**
 
 This study compared Naive Bayes, Support Vector Machine (SVM), Logistic Regression, and Multilayer Perceptron (MLP) against the
 
@@ -128,7 +128,7 @@ Random Forests also tolerate outliers. The ensemble's decision trees split on su
 
 affect random forest forecasts less.
 
-**Accuracy after the testing:**
+## **Accuracy after the testing:**
 
 Naive Bayes (NB)-0.957
 
