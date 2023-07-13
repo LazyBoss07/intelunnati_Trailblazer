@@ -19,7 +19,9 @@ stories. The merits and limitations of several machine learning models are revea
 false news detection to be chosen.
 Overall, the success of this study shows how machine learning may be used to prevent the harmful impacts of false news. As the 
 problems with identifying false news continue to evolve, new and better methods may be developed and used. </p>
+
 ## Introduction:
+
 <p align="justify">In today's information-driven world, the term "fake news" has become a frequent topic of discussion. Whether it pertains to political 
 events or spreads through various social platforms, the difficulty in discerning reliable sources of information has heightened. In 
 response to this challenge, our project focuses on understanding what constitutes fake news and proposes an efficient approach to 
@@ -38,18 +40,22 @@ against deceptive information.
 Our project not only tackles the pervasive issue of fake news but also leverages the power of machine learning to make a positive 
 impact on the digital landscape. By incorporating the latest advancements in natural language processing and data analysis, we are 
 confident that our model provides a robust solution for identifying and combating the proliferation of fake news  </p>
-## Cloning the repo 
 
-  git clone https://github.com/LazyBoss07/intelunnati_Trailblazer.git
+## Cloning the repo 
+```shell
+git clone https://github.com/LazyBoss07/intelunnati_Trailblazer.git
+```
+  
 
 ## Unzip dependency in data folder(optional)
-
-  Use 'unzip' utility and extract all file of dependency.zip into data folder
-
+```
+Use 'unzip' utility and extract all file of dependency.zip into data folder
+```
 ## Fakenews Kernal - Runtime
-
-  run 'pip_env.sh'
-
+```shell
+./pip_env.sh
+```
 ## Notebook 
-
-  run the notebook in code folder 
+```
+run the notebook in code folder 
+```
