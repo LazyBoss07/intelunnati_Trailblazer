@@ -3,7 +3,7 @@
 
 git clone https://github.com/LazyBoss07/intelunnati_Trailblazer.git
 
-## Unzip dependency in data floder(optional)
+## Unzip dependency in data folder(optional)
 
 Use 'unzip' utility and extract all file of dependency.zip into data folder
 
