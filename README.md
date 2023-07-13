@@ -1,4 +1,4 @@
-﻿# Fakenews Detection
+﻿# **Fakenews Detection**
 ## Abstract:
 <p align="justify">
 The goal of this project is to create a machine learning-based system that can identify false news articles. The objective is to detect 
@@ -108,23 +108,14 @@ The Random Forest Classifier classified bogus news items with an accuracy score 
 
 shows that RFA can generalize and forecast accurately on unknown data, making it a viable false news detector.
 
-●
-
-RFA is overfitting-resistant. Random Forests overfit less than Naive Bayes, SVM, and MLP. RFA's ensemble of decision trees
-
+● RFA is overfitting-resistant. Random Forests overfit less than Naive Bayes, SVM, and MLP. RFA's ensemble of decision trees
 reduces overfitting by averaging out individual tree forecasts.
 
-●
-
-Random Forests handle high-dimensional data effectively. They automatically choose a subset of characteristics at each decision
-
+● Random Forests handle high-dimensional data effectively. They automatically choose a subset of characteristics at each decision
 tree node to manage big datasets. This feature selection approach decreases feature duplication and irrelevant feature effects
-
 on predictions.
 
-●
-
-Random Forests also tolerate outliers. The ensemble's decision trees split on subsets of features, reducing outlier effect. Outliers
+● Random Forests also tolerate outliers. The ensemble's decision trees split on subsets of features, reducing outlier effect. Outliers
 
 affect random forest forecasts less.
 
