@@ -43,7 +43,7 @@ confident that our model provides a robust solution for identifying and combatin
 
 ## Cloning the repo 
 ```shell
-git clone https://github.com/LazyBoss07/intelunnati_Trailblazer.git
+$ git clone https://github.com/LazyBoss07/intelunnati_Trailblazer.git
 ```
   
 
