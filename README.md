@@ -44,7 +44,7 @@ confident that our model provides a robust solution for identifying and combatin
 
 ## **Dataset:**
 
-ISOT Fake News dataset was used as a training, validation, and test input for the algorithms that were used. The dataset features a
+<p align="justify">ISOT Fake News dataset was used as a training, validation, and test input for the algorithms that were used. The dataset features a
 
 list of articles, together with the subject of the article and its title categorized as ‘Fake’ or ‘True’. The dataset used in this project
 
@@ -52,47 +52,47 @@ consists of satirical and legitimate news stories. The dataset comprises two mai
 
 consists of approximately 12,600 news articles that are verified and obtained from reputable sources.These articles are considered
 
-genuine and are meant to represent reliable news sources.
+genuine and are meant to represent reliable news sources.</p>
 
 ## **Exploratory data analysis - EDA**
 
 **Data Shape and Sample:**
 
-The shape of the dataset (number of rows and columns) is displayed to get an overview of the dataset's size.A sample news article,
+<p align="justify">The shape of the dataset (number of rows and columns) is displayed to get an overview of the dataset's size.A sample news article,
 
-along with its corresponding label, is printed to provide a glimpse of the data.
+along with its corresponding label, is printed to provide a glimpse of the data.</p>
 
 **Distribution of News Articles:**
 
-A count plot is created to visualize the distribution of news articles based on their labels (fake or genuine).This plot helps to understand
+<p align="justify">A count plot is created to visualize the distribution of news articles based on their labels (fake or genuine).This plot helps to understand
 
-the balance or imbalance in the dataset.
+the balance or imbalance in the dataset.</p>
 
 **Class Balance:**
 
-The counts and percentages of each class (fake and genuine) are calculated and displayed.This provides insights into the class
+<p align="justify">The counts and percentages of each class (fake and genuine) are calculated and displayed.This provides insights into the class
 
-distribution of the dataset.
+distribution of the dataset.</p>
 
 **Text Analysis:**
 
-The length of the text in each news article is calculated and stored in a new column called "text\_length."A histogram plot is generated
+<p align="justify">The length of the text in each news article is calculated and stored in a new column called "text\_length."A histogram plot is generated
 
-to visualize the distribution of text lengths, with different colors representing different labels (fake or genuine).
+to visualize the distribution of text lengths, with different colors representing different labels (fake or genuine).</p>
 
 **Word Clouds:**
 
-Word clouds are created for both fake and genuine news articles.These word clouds display the most frequent words in each category,
+<p align="justify">Word clouds are created for both fake and genuine news articles.These word clouds display the most frequent words in each category,
 
-providing a visual representation of the important words associated with fake and genuine news.
+providing a visual representation of the important words associated with fake and genuine news.</p>
 
 **Temporal Analysis:**
 
-If applicable, the temporal aspect of the dataset is considered by extracting the year and month from the "date" column.A count plot
+<p align="justify">If applicable, the temporal aspect of the dataset is considered by extracting the year and month from the "date" column.A count plot
 
 is created to visualize the number of news articles by year, with different colors indicating the labels (fake or genuine).This analysis
 
-provides insights into any trends or patterns in the dataset over time.
+provides insights into any trends or patterns in the dataset over time.</p>
 
 
 
@@ -100,7 +100,7 @@ provides insights into any trends or patterns in the dataset over time.
 
 ## **Model training, Evaluation, and Prediction**
 
-This study compared Naive Bayes, Support Vector Machine (SVM), Logistic Regression, and Multilayer Perceptron (MLP) against the
+<p align="justify">This study compared Naive Bayes, Support Vector Machine (SVM), Logistic Regression, and Multilayer Perceptron (MLP) against the
 
 Random Forest Classifier (RFA). RFA had the best accuracy, precision, recall, and F1-score on the ISOT Fake News dataset.
 
@@ -117,7 +117,7 @@ on predictions.
 
 ● Random Forests also tolerate outliers. The ensemble's decision trees split on subsets of features, reducing outlier effect. Outliers
 
-affect random forest forecasts less.
+affect random forest forecasts less.<p>
 
 ## **Accuracy after the testing:**
 
