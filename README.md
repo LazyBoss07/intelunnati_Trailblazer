@@ -1,5 +1,6 @@
 ﻿# Fakenews Detection
 ## Abstract:
+<p align="justify">
 The goal of this project is to create a machine learning-based system that can identify false news articles. The objective is to detect 
 fake news stories that include false information. For testing and training purposes, this project makes use of the extensive ISOT Fake 
 News dataset. Beginning with tidying up and preparing the data is a crucial first stage in the endeavor. Placeholders for URLs, 
@@ -17,9 +18,9 @@ language processing (NLP) methods, preprocessing, and feature extraction, the sy
 stories. The merits and limitations of several machine learning models are revealed via comparison, allowing for the best model for 
 false news detection to be chosen.
 Overall, the success of this study shows how machine learning may be used to prevent the harmful impacts of false news. As the 
-problems with identifying false news continue to evolve, new and better methods may be developed and used.
+problems with identifying false news continue to evolve, new and better methods may be developed and used. </p>
 ## Introduction:
-In today's information-driven world, the term "fake news" has become a frequent topic of discussion. Whether it pertains to political 
+<p align="justify">In today's information-driven world, the term "fake news" has become a frequent topic of discussion. Whether it pertains to political 
 events or spreads through various social platforms, the difficulty in discerning reliable sources of information has heightened. In 
 response to this challenge, our project focuses on understanding what constitutes fake news and proposes an efficient approach to 
 detect it using cutting-edge machine learning and natural language processing techniques.
@@ -36,7 +37,7 @@ platforms can strategically minimize the visibility of stories that are highly l
 against deceptive information.
 Our project not only tackles the pervasive issue of fake news but also leverages the power of machine learning to make a positive 
 impact on the digital landscape. By incorporating the latest advancements in natural language processing and data analysis, we are 
-confident that our model provides a robust solution for identifying and combating the proliferation of fake news
+confident that our model provides a robust solution for identifying and combating the proliferation of fake news  </p>
 ## Cloning the repo 
 
   git clone https://github.com/LazyBoss07/intelunnati_Trailblazer.git
