@@ -41,6 +41,107 @@ Our project not only tackles the pervasive issue of fake news but also leverages
 impact on the digital landscape. By incorporating the latest advancements in natural language processing and data analysis, we are 
 confident that our model provides a robust solution for identifying and combating the proliferation of fake news  </p>
 
+
+**Dataset:**
+
+ISOT Fake News dataset was used as a training, validation, and test input for the algorithms that were used. The dataset features a
+
+list of articles, together with the subject of the article and its title categorized as ‘Fake’ or ‘True’. The dataset used in this project
+
+consists of satirical and legitimate news stories. The dataset comprises two main files: "True.csv" and "Fake.csv". The "True.csv" file
+
+consists of approximately 12,600 news articles that are verified and obtained from reputable sources.These articles are considered
+
+genuine and are meant to represent reliable news sources.
+
+**Exploratory data analysis - EDA**
+
+**Data Shape and Sample:**
+
+The shape of the dataset (number of rows and columns) is displayed to get an overview of the dataset's size.A sample news article,
+
+along with its corresponding label, is printed to provide a glimpse of the data.
+
+**Distribution of News Articles:**
+
+A count plot is created to visualize the distribution of news articles based on their labels (fake or genuine).This plot helps to understand
+
+the balance or imbalance in the dataset.
+
+**Class Balance:**
+
+The counts and percentages of each class (fake and genuine) are calculated and displayed.This provides insights into the class
+
+distribution of the dataset.
+
+**Text Analysis:**
+
+The length of the text in each news article is calculated and stored in a new column called "text\_length."A histogram plot is generated
+
+to visualize the distribution of text lengths, with different colors representing different labels (fake or genuine).
+
+**Word Clouds:**
+
+Word clouds are created for both fake and genuine news articles.These word clouds display the most frequent words in each category,
+
+providing a visual representation of the important words associated with fake and genuine news.
+
+**Temporal Analysis:**
+
+If applicable, the temporal aspect of the dataset is considered by extracting the year and month from the "date" column.A count plot
+
+is created to visualize the number of news articles by year, with different colors indicating the labels (fake or genuine).This analysis
+
+provides insights into any trends or patterns in the dataset over time.
+
+
+
+<a name="br4"></a> 
+
+**Model training, Evaluation, and Prediction**
+
+This study compared Naive Bayes, Support Vector Machine (SVM), Logistic Regression, and Multilayer Perceptron (MLP) against the
+
+Random Forest Classifier (RFA). RFA had the best accuracy, precision, recall, and F1-score on the ISOT Fake News dataset.
+
+The Random Forest Classifier classified bogus news items with an accuracy score of 0.9966592427616926. This high accuracy score
+
+shows that RFA can generalize and forecast accurately on unknown data, making it a viable false news detector.
+
+●
+
+RFA is overfitting-resistant. Random Forests overfit less than Naive Bayes, SVM, and MLP. RFA's ensemble of decision trees
+
+reduces overfitting by averaging out individual tree forecasts.
+
+●
+
+Random Forests handle high-dimensional data effectively. They automatically choose a subset of characteristics at each decision
+
+tree node to manage big datasets. This feature selection approach decreases feature duplication and irrelevant feature effects
+
+on predictions.
+
+●
+
+Random Forests also tolerate outliers. The ensemble's decision trees split on subsets of features, reducing outlier effect. Outliers
+
+affect random forest forecasts less.
+
+**Accuracy after the testing:**
+
+Naive Bayes (NB)-0.957
+
+Random Forest (RFA)-0.997
+
+Support Vector Machine (SVM)-0.994
+
+Logistic Regression-0.997
+
+Multilayer Perceptron (MLP)-0.994
+
+
+
 ## Cloning the repo 
 ```shell
 $ git clone https://github.com/LazyBoss07/intelunnati_Trailblazer.git
